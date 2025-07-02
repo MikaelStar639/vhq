@@ -18,7 +18,7 @@ module tt_um_asiclab_example (
 
   // All output pins must be assigned. If not used, assign to 0.
     wire reset = ~rst_n;
-    assign ulo_out = 0;
+    assign uio_out = 0;
     assign uio_oe = 0;
     wire _unuse = &{ena,uio_in,1'b0};
     
